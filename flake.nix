@@ -71,6 +71,7 @@
 
         buildInputs = with pkgs; [
           alsa-lib
+          avahi-compat
           portaudio
           pulseaudio
           pipewire
@@ -118,6 +119,7 @@
         ];
         buildInputs = with pkgs; [
           alsa-lib
+          avahi-compat
           portaudio
           pulseaudio
           pipewire
