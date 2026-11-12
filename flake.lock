@@ -1,0 +1,152 @@
+{
+  "nodes": {
+    "arduinojson": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1744379022,
+        "narHash": "sha256-CvwL3FDsbQGLkZFC3Z/RWeiT9tO+7ZRpT65YUdRT5dQ=",
+        "owner": "bblanchon",
+        "repo": "ArduinoJson",
+        "rev": "32520135092970120a5ac165cf45f48e658c421d",
+        "type": "github"
+      },
+      "original": {
+        "owner": "bblanchon",
+        "repo": "ArduinoJson",
+        "rev": "32520135092970120a5ac165cf45f48e658c421d",
+        "type": "github"
+      }
+    },
+    "ixwebsocket": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1782430374,
+        "narHash": "sha256-2QWIpLVIs2vGuMEhewDyihYdDQBz7SsOtfZ6pE67j2Q=",
+        "owner": "machinezone",
+        "repo": "IXWebSocket",
+        "rev": "64fae7676bd8fe31f7cb4bcde7a6841892dad65e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "machinezone",
+        "repo": "IXWebSocket",
+        "rev": "64fae7676bd8fe31f7cb4bcde7a6841892dad65e",
+        "type": "github"
+      }
+    },
+    "micro-flac": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1791813469,
+        "narHash": "sha256-RdV6chJ7H3Ru01yRJZUHzQrP7UoRgBeR+Ri66utA93g=",
+        "owner": "esphome-libs",
+        "repo": "micro-flac",
+        "rev": "f9c27d4d0166021db977d7fc37d205b21d81e9f2",
+        "type": "github"
+      },
+      "original": {
+        "owner": "esphome-libs",
+        "repo": "micro-flac",
+        "rev": "f9c27d4d0166021db977d7fc37d205b21d81e9f2",
+        "type": "github"
+      }
+    },
+    "micro-opus": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1773316750,
+        "narHash": "sha256-SROk+dF6zuY2GEJZfAtw8iTQZpFIrAROX8XLp/qfZfA=",
+        "owner": "esphome-libs",
+        "repo": "micro-opus",
+        "rev": "3e9ce44c56ab8007261d68c511f0162599542aa2",
+        "type": "github"
+      },
+      "original": {
+        "owner": "esphome-libs",
+        "repo": "micro-opus",
+        "rev": "3e9ce44c56ab8007261d68c511f0162599542aa2",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1794285365,
+        "narHash": "sha256-wZbTou+ANeUoN7ojuMBOPU9D4qMZ96MLxcDp2BzmIUY=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "9ac0edc06bfb33e6c0000be79d98ef8d89e26503",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixpkgs-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "noise-c": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1781665905,
+        "narHash": "sha256-5bu3Vh+8w4cVuU9n7oc20uhswJgxVtIeHoIzTjAr/Xo=",
+        "owner": "esphome-libs",
+        "repo": "noise-c",
+        "rev": "a1e08809a1b8f65cd91765ba7d68a6d00648ad61",
+        "type": "github"
+      },
+      "original": {
+        "owner": "esphome-libs",
+        "repo": "noise-c",
+        "rev": "a1e08809a1b8f65cd91765ba7d68a6d00648ad61",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "arduinojson": "arduinojson",
+        "ixwebsocket": "ixwebsocket",
+        "micro-flac": "micro-flac",
+        "micro-opus": "micro-opus",
+        "nixpkgs": "nixpkgs",
+        "noise-c": "noise-c",
+        "sendspin-cpp": "sendspin-cpp",
+        "sendspin-cpp-cli": "sendspin-cpp-cli"
+      }
+    },
+    "sendspin-cpp": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1793186420,
+        "narHash": "sha256-QqXYJF7AYzLniv0CfpQWKkFWvW6vtnTlX25bJzKH7Z8=",
+        "owner": "Sendspin",
+        "repo": "sendspin-cpp",
+        "rev": "b0fcf5bb369b470ddc4987280c19f0919e9a9084",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Sendspin",
+        "repo": "sendspin-cpp",
+        "rev": "b0fcf5bb369b470ddc4987280c19f0919e9a9084",
+        "type": "github"
+      }
+    },
+    "sendspin-cpp-cli": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1794341737,
+        "narHash": "sha256-Y/y9ugNjDNbWfE3r4pjH1L2zjNf1pGmITdOK/YBVuLY=",
+        "owner": "Sendspin",
+        "repo": "sendspin-cpp-cli",
+        "rev": "b0e65fc9d64575271f0226519704c27ac956642a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Sendspin",
+        "repo": "sendspin-cpp-cli",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
